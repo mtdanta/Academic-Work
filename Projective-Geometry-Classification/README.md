@@ -5,7 +5,7 @@ This repository contains the PDF for the research project "Clasificación de Hom
 * **Authors:** Mario Torres Danta, Carlos Baños
 * **Supervisor:** Prof. Francisco Castro Jiménez
 * **Institution:** University of Seville, Department of Algebra
-* **Date:** October 2025
+* **Date:** September 2024 - June 2025
 * **Original Language:** Spanish (The PDF is in its original Spanish)
 
 ---
