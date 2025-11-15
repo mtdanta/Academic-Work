@@ -1,0 +1,128 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CV ACADÉMICO v9 
+% Perfil: MARIO TORRES DANTA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% --- PREÁMBULO: Configuración del Documento ---
+\documentclass[11pt, a4paper]{article}
+
+% --- Paquetes ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{palatino} % Fuente elegante
+\usepackage[margin=0.8in]{geometry}
+\usepackage{hyperref}         % Enlaces clicables
+\usepackage{titlesec}         % Personalizar secciones
+\usepackage{xcolor}           % Para colores sutiles
+\usepackage{microtype}        % Mejora sutil de la tipografía
+\usepackage{multicol}         % Para crear dos columnas
+\usepackage{etoolbox}
+\usepackage{textcomp} % Para \textperiodcentered
+
+% --- Configuración de Color y Enlaces ---
+\definecolor{darkblue}{HTML}{000033} 
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	urlcolor=darkblue,
+	citecolor=black,
+}
+
+% --- Formato de Secciones ---
+\titleformat{\section}
+{\Large\bfseries\scshape\color{darkblue}}
+{}
+{0em}
+{}[\color{darkblue}\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+
+% --- Quitar Números de Página ---
+\pagestyle{empty}
+
+% --- Comando para listas sin viñetas ---
+\newcommand{\entry}[2]{\item[] \textbf{#1} \hfill \textit{#2}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% --- INICIO DEL DOCUMENTO ---
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+	
+	% --- ENCABEZADO: NOMBRE Y CONTACTO ---
+	\noindent % Para alinear a la izquierda
+	{\Huge \bfseries MARIO TORRES DANTA}
+	\hfill % Empuja el siguiente bloque a la derecha
+	\parbox[t]{.4\textwidth}{\raggedleft \large % Un bloque alineado a la derecha
+		(+34) 634 460 992 \\ % Teléfono 
+		\href{mailto:martordan@alum.us.es}{martordan@alum.us.es} \\
+		\href{https://github.com/mtdanta}{github.com/mtdanta} \\
+		Seville, Spain
+	}
+	\vspace{6mm} % Un espacio vertical antes de la primera sección
+	
+	% --- EDUCACIÓN ---
+	\section*{Education}
+	\begin{itemize}
+		\entry{B.Sc. in Mathematics}{2023 – 2027 (Expected)}
+		\item[] \textit{University of Seville (US), Seville, Spain}
+		\item[] \textbf{Current GPA: 8.78 / 10.0} (Based on 16 graded courses)
+	\end{itemize}
+	
+	% --- MATRÍCULAS DE HONOR ---
+	\section*{Academic Honors \& Distinctions}
+	\begin{itemize}
+		\item[] Awarded \textbf{"Matrícula de Honor" (Highest Distinction)} in 5 courses:
+		\begin{multicols}{2}
+			\begin{itemize}
+				\item \textbf{General Topology (10.0)}
+				\item \textbf{Measure Theory \& Lebesgue Integration (10.0)}
+				\item \textbf{Numerical Analysis I (9.5)}
+				\item \textbf{Ordinary Differential Equations (9.4)}
+				\item \textbf{Probability Theory (9.4)}
+			\end{itemize}
+		\end{multicols}
+		\item[] \textit{Additional "Sobresaliente" (A-Grade) in 5 courses (incl. Complex Analysis, Linear Algebra II, Discrete Mathematics).}
+	\end{itemize}
+	
+	% --- EXPERIENCIA DE INVESTIGACIÓN ---
+	\section*{Research Experience}
+	\begin{itemize}
+		\entry{Undergraduate Researcher (Alumno Interno)}{Sep 2024 - Jun 2025}
+		\item[] \textit{Department of Algebra, University of Seville}
+		
+		% ENLACE A REPOSITORIO "Academic-Work"
+		\item[] \textbf{Project:} Classification of homographies and homologies \;\; \href{https://github.com/mtdanta/Academic-Work/tree/main/Projective-Geometry-Classification}{\color{darkblue}[View Project PDF \& Abstract]}
+		
+		\item[] \textbf{Supervisor:} Prof. Francisco Castro Jiménez
+	\end{itemize}
+	
+	% --- INTERESES DE INVESTIGACIÓN ---
+	\section*{Research Interests}
+	\begin{itemize}
+		\item[] Algebraic Topology (Homology, Cohomology, Homotopy Theory) \textperiodcentered{} Abstract Algebra (Group Theory, Ring Theory) \textperiodcentered{} Topological Data Analysis (TDA)
+	\end{itemize}
+	
+	% --- ESTUDIO AVANZADO INDEPENDIENTE ---
+	\section*{Advanced Independent Study}
+	\begin{itemize}
+		\item[] Proactively self-studying \textbf{Munkres, "Algebraic Topology"} in preparation for advanced 4th-year electives (e.g., "Simplicial Homology").
+		\item[] Completed foundational self-study using \textbf{Sasho, "An Illustrated Introduction to Topology and Homology"}.
+	\end{itemize}
+	
+	% --- HABILIDADES TÉCNICAS Y LINGÜÍSTICAS ---
+	\section*{Skills}
+	\begin{itemize}
+		\item \textbf{Languages:} Spanish (Native), English (B2, C1 in preparation), French (B2)
+		\item \textbf{Programming:} \textbf{Python} (Proficient; Certified by \textit{Santander Open Academy}), \textbf{SageMath} (Academic use)
+		\item \textbf{Technical:} \textbf{\LaTeX{}} (Primary document preparation via TeXstudio), \textbf{GitHub} (Repository management)
+	\end{itemize}
+	
+	% --- REFERENCIAS ---
+	\vfill % Empuja esto al final de la página
+	\begin{center}
+		\textit{References (including research supervisor) and full academic transcript available upon request.}
+	\end{center}
+	
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% --- FIN DEL DOCUMENTO ---
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
