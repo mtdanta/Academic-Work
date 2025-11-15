@@ -1,25 +1,25 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% CV ACADÉMICO v9 
-% Perfil: MARIO TORRES DANTA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Academic CV - Mario Torres Danta
+% LaTeX Source Code
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% --- PREÁMBULO: Configuración del Documento ---
+% --- PREAMBLE ---
 \documentclass[11pt, a4paper]{article}
 
-% --- Paquetes ---
+% --- Packages ---
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{palatino} % Fuente elegante
+\usepackage{palatino} % Palatino font
 \usepackage[margin=0.8in]{geometry}
-\usepackage{hyperref}         % Enlaces clicables
-\usepackage{titlesec}         % Personalizar secciones
-\usepackage{xcolor}           % Para colores sutiles
-\usepackage{microtype}        % Mejora sutil de la tipografía
-\usepackage{multicol}         % Para crear dos columnas
+\usepackage{hyperref}         % Clickable links
+\usepackage{titlesec}         % Section formatting
+\usepackage{xcolor}           % Colors
+\usepackage{microtype}        % Typography improvements
+\usepackage{multicol}         % Multi-column layout
 \usepackage{etoolbox}
-\usepackage{textcomp} % Para \textperiodcentered
+\usepackage{textcomp} % For \textperiodcentered
 
-% --- Configuración de Color y Enlaces ---
+% --- Color & Link Setup ---
 \definecolor{darkblue}{HTML}{000033} 
 \hypersetup{
 	colorlinks=true,
@@ -28,7 +28,7 @@
 	citecolor=black,
 }
 
-% --- Formato de Secciones ---
+% --- Section Formatting ---
 \titleformat{\section}
 {\Large\bfseries\scshape\color{darkblue}}
 {}
@@ -36,30 +36,30 @@
 {}[\color{darkblue}\titlerule]
 \titlespacing*{\section}{0pt}{10pt}{6pt}
 
-% --- Quitar Números de Página ---
+% --- Page Style ---
 \pagestyle{empty}
 
-% --- Comando para listas sin viñetas ---
+% --- Custom List Command ---
 \newcommand{\entry}[2]{\item[] \textbf{#1} \hfill \textit{#2}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% --- INICIO DEL DOCUMENTO ---
+% --- DOCUMENT START ---
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 	
-	% --- ENCABEZADO: NOMBRE Y CONTACTO ---
-	\noindent % Para alinear a la izquierda
+	% --- HEADER ---
+	\noindent % Align left
 	{\Huge \bfseries MARIO TORRES DANTA}
-	\hfill % Empuja el siguiente bloque a la derecha
-	\parbox[t]{.4\textwidth}{\raggedleft \large % Un bloque alineado a la derecha
-		(+34) 634 460 992 \\ % Teléfono 
+	\hfill % Push to right
+	\parbox[t]{.4\textwidth}{\raggedleft \large
+		(+34) 612 345 678 \\ % Phone (Update or remove)
 		\href{mailto:martordan@alum.us.es}{martordan@alum.us.es} \\
 		\href{https://github.com/mtdanta}{github.com/mtdanta} \\
 		Seville, Spain
 	}
-	\vspace{6mm} % Un espacio vertical antes de la primera sección
+	\vspace{6mm} % Vertical space
 	
-	% --- EDUCACIÓN ---
+	% --- EDUCATION ---
 	\section*{Education}
 	\begin{itemize}
 		\entry{B.Sc. in Mathematics}{2023 – 2027 (Expected)}
@@ -67,7 +67,7 @@
 		\item[] \textbf{Current GPA: 8.78 / 10.0} (Based on 16 graded courses)
 	\end{itemize}
 	
-	% --- MATRÍCULAS DE HONOR ---
+	% --- ACADEMIC HONORS & DISTINCTIONS ---
 	\section*{Academic Honors \& Distinctions}
 	\begin{itemize}
 		\item[] Awarded \textbf{"Matrícula de Honor" (Highest Distinction)} in 5 courses:
@@ -83,46 +83,53 @@
 		\item[] \textit{Additional "Sobresaliente" (A-Grade) in 5 courses (incl. Complex Analysis, Linear Algebra II, Discrete Mathematics).}
 	\end{itemize}
 	
-	% --- EXPERIENCIA DE INVESTIGACIÓN ---
+	% --- RESEARCH EXPERIENCE ---
 	\section*{Research Experience}
+	
+	% Current Project (2025-2026)
+	\begin{itemize}
+		\entry{Undergraduate Researcher (Alumno Interno)}{Sep 2025 - Jun 2026 (Current)}
+		\item[] \textit{Department of Geometry and Topology, University of Seville}
+		\item[] \textbf{Project:} Advanced topics in Topology and Group Theory. A guided study complementing the standard undergraduate curriculum.
+		\item[] \textbf{Supervisor:} Prof. Ramón J. Flores
+		\item[]	\textbf{------------------}
+	\end{itemize}
+
+	% Past Project (2024-2025)
 	\begin{itemize}
 		\entry{Undergraduate Researcher (Alumno Interno)}{Sep 2024 - Jun 2025}
 		\item[] \textit{Department of Algebra, University of Seville}
-		
-		% ENLACE A REPOSITORIO "Academic-Work"
-		\item[] \textbf{Project:} Classification of homographies and homologies \;\; \href{https://github.com/mtdanta/Academic-Work/tree/main/Projective-Geometry-Classification}{\color{darkblue}[View Project PDF \& Abstract]}
-		
+		\item[] \textbf{Project:} Classification of homographies and homologies in real and complex projective spaces. \href{https://github.com/mtdanta/Academic-Work/tree/main/Projective-Geometry-Classification}{\color{darkblue}[View Project PDF \& Abstract]}
 		\item[] \textbf{Supervisor:} Prof. Francisco Castro Jiménez
 	\end{itemize}
 	
-	% --- INTERESES DE INVESTIGACIÓN ---
+	% --- RESEARCH INTERESTS ---
 	\section*{Research Interests}
 	\begin{itemize}
 		\item[] Algebraic Topology (Homology, Cohomology, Homotopy Theory) \textperiodcentered{} Abstract Algebra (Group Theory, Ring Theory) \textperiodcentered{} Topological Data Analysis (TDA)
 	\end{itemize}
 	
-	% --- ESTUDIO AVANZADO INDEPENDIENTE ---
+	% --- ADVANCED INDEPENDENT STUDY ---
 	\section*{Advanced Independent Study}
 	\begin{itemize}
-		\item[] Proactively self-studying \textbf{Munkres, "Algebraic Topology"} in preparation for advanced 4th-year electives (e.g., "Simplicial Homology").
-		\item[] Completed foundational self-study using \textbf{Sasho, "An Illustrated Introduction to Topology and Homology"}.
+		\item[] Proactively self-studying \textbf{Munkres, "Algebraic Topology"} and \textbf{Sasho, "An Illustrated Introduction to Topology and Homology"}.
 	\end{itemize}
 	
-	% --- HABILIDADES TÉCNICAS Y LINGÜÍSTICAS ---
+	% --- SKILLS ---
 	\section*{Skills}
 	\begin{itemize}
 		\item \textbf{Languages:} Spanish (Native), English (B2, C1 in preparation), French (B2)
 		\item \textbf{Programming:} \textbf{Python} (Proficient; Certified by \textit{Santander Open Academy}), \textbf{SageMath} (Academic use)
-		\item \textbf{Technical:} \textbf{\LaTeX{}} (Primary document preparation via TeXstudio), \textbf{GitHub} (Repository management)
+		\item \textbf{Technical:} \textbf{\LaTeX{}} (Primary document preparation), \textbf{GitHub} (Repository management)
 	\end{itemize}
 	
-	% --- REFERENCIAS ---
-	\vfill % Empuja esto al final de la página
+	% --- REFERENCES ---
+	\vfill % Push to bottom
 	\begin{center}
-		\textit{References (including research supervisor) and full academic transcript available upon request.}
+		\textit{References (including research supervisors) and full academic transcript available upon request.}
 	\end{center}
 	
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% --- FIN DEL DOCUMENTO ---
+% --- END OF DOCUMENT ---
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
