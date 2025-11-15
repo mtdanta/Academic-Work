@@ -28,6 +28,15 @@ This folder contains the most recent version of my academic CV, in both PDF and 
 
 ---
 
+## 3. Independent Study & Code Explorations
+
+This section contains code related to my self-study interests.
+
+### ➡️ [Python Tests](Python Tests/)
+
+* **Description:** A self-guided exploration into Topological Data Analysis (TDA) using the `gudhi` library in Python.
+* **Notebook:** [`TDA_Persistent_Homology_Intro.ipynb`](Python Tests/TDA_introduction.ipynb)
+* **Content:** This project calculates and visualizes the persistent homology (Betti numbers) of a point cloud sampled from several topological objects.
 ### Contact
 
 * **Email:** `martordan@alum.us.es`
