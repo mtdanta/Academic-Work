@@ -23,8 +23,8 @@ This section contains my formal research and long-form academic projects.
 
 This folder contains the most recent version of my academic CV, in both PDF and LaTeX formats.
 
-* **➡️ [View CV (PDF)](CV/Mario_Torres_Danta_CV.pdf)**
-* **➡️ [View CV (.tex Source)](CV/Mario_Torres_Danta_CV.tex)**
+* **➡️ [View CV (PDF)](CV/Mario_Torres_Danta_cv.pdf)**
+* **➡️ [View CV (.tex Source)](CV/Mario_Torres_Danta_cv.tex)**
 
 ---
 
