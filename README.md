@@ -29,6 +29,3 @@ This section contains code related to my self-study interests.
 * **Notebook:** [`TDA__Introduction.ipynb`](
 Python_Tests/TDA_introduction.ipynb)
 * **Content:** This project calculates and visualizes the persistent homology (Betti numbers) of a point cloud sampled from several topological objects.
-### Contact
-
-* **Email:** `martordan@alum.us.es`
