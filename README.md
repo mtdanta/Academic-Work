@@ -8,7 +8,7 @@ This repository contains my research projects, CV source code, and independent s
 
 ## 1. Research Projects
 
-This section contains my formal research and departmental collaborations ("Alumno Interno").
+This section contains my formal research and departmental collaborations ("Alumno Interno"). You can browse the full directory of projects here: [📂 View All Projects](Projects/).
 
 ### ➡️ [Current] Advanced Topics in Topology & Group Theory
 * **Description:** A guided study regarding advanced algebraic invariants, complementing the standard undergraduate curriculum.
@@ -16,7 +16,7 @@ This section contains my formal research and departmental collaborations ("Alumn
 * **Department:** Geometry and Topology (US).
 * *(Work in progress)*
 
-### ➡️ [Project: Projective Geometry Classification](Projective-Geometry-Classification/)
+### ➡️ [Project: Projective Geometry Classification](Projects/Projective-Geometry-Classification/)
 * **Description:** An undergraduate research project on the classification of homographies and homologies in projective spaces using Jordan Canonical Forms.
 * **Role:** Co-Author.
 * **Supervisor:** Prof. Francisco Castro Jiménez.
