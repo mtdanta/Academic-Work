@@ -1,42 +1,32 @@
-# 🐍 Python Explorations & Computational Math
+# Computational Mathematics & Python
 
-This directory serves as a **sandbox** for my independent study of Python libraries applied to mathematics.
-
-As a mathematics undergraduate, I use this space to bridge the gap between abstract theory and computational visualization. The code here consists of self-guided experiments, "Hello World" tests for complex libraries, and practical implementations of algebraic/topological concepts.
+This directory serves as a computational laboratory for my independent study. The goal is to bridge the gap between abstract theory and computational visualization, implementing algorithms related to Algebraic Topology and Data Analysis.
 
 ---
 
-## 🧪 Current Explorations
+## 1. Current Explorations
 
-### 1. Topological Data Analysis (TDA)
-**📂 File:** [`TDA_Introduction.ipynb`](./TDA_introduction.ipynb)
-**📚 Libraries:** `Gudhi`, `Matplotlib`, `Numpy`.
-
-A first approach to computational topology using the **Gudhi** library.
-* **Goal:** To compute and visualize algebraic invariants from point cloud data.
-* **Key Concepts:**
-    * Construction of Simplicial Complexes (Rips Complex).
-    * Calculation of Persistent Homology.
-    * Visualization of **Persistence Diagrams** and **Barcodes**.
+### ➡️ [Notebook: TDA Introduction](TDA_introduction.ipynb)
+* **Focus:** Computational Topology using the **Gudhi** library.
+* **Objective:** To compute algebraic invariants from point cloud data and visualize topological features.
+* **Methodology:**
+    1.  Generation of random point clouds on $S^1$ and other manifolds.
+    2.  Construction of Vietoris-Rips complexes.
+    3.  Calculation of Persistent Homology groups.
+    4.  Visualization via Persistence Diagrams and Barcodes.
 
 ---
 
-## 🛠️ Tech Stack & Libraries
-These are the tools I have experimented with in this repository:
+## 2. Technical Stack
 
-| Library | Mathematical Application | Status |
+The following tools are currently being implemented to support mathematical experimentation:
+
+| Library | Mathematical Application | Utility |
 | :--- | :--- | :--- |
-| **[Gudhi](https://gudhi.inria.fr/)** | Algebraic Topology, Persistent Homology | 🟢 Active |
-| **NumPy** | Linear Algebra, Matrix Operations | 🟢 Active |
-| **Matplotlib** | Data Visualization | 🟢 Active |
-| *(Future)* | *SymPy / NetworkX* | *Symbolic Math / Graph Theory* | ⚪ Planned |
+| **[Gudhi](https://gudhi.inria.fr/)** | **Algebraic Topology** | Simplicial complexes, Persistent Homology |
+| **NumPy** | **Linear Algebra** | Vector spaces, Matrix operations, Data structures |
+| **Matplotlib** | **Visualization** | Plotting barcodes and diagrams |
 
 ---
 
-## ⚠️ Note on Code Structure
-Please note that the scripts in this folder are **exploratory**. They are designed to test features and verify mathematical intuitions, not necessarily to be production-ready software.
-
----
-
-### ⬅️ Navigation
-[**Return to Main Portfolio**](../README.md)
+### ⬅️ [Return to Main Portfolio](../README.md)
