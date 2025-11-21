@@ -8,12 +8,12 @@ This directory serves as a computational laboratory for my independent study. Th
 
 ### ➡️ [Notebook: TDA Introduction](TDA_introduction.ipynb)
 * **Focus:** Computational Topology using the **Gudhi** library.
-* **Objective:** To compute algebraic invariants from point cloud data and visualize topological features.
+* **Objective:** To recover the homology groups of a geometric object from a discrete point cloud.
 * **Methodology:**
-    1.  Generation of random point clouds on $S^1$ and other manifolds.
-    2.  Construction of Vietoris-Rips complexes.
-    3.  Calculation of Persistent Homology groups.
-    4.  Visualization via Persistence Diagrams and Barcodes.
+    1.  Generation of a synthetic point cloud sampled from a **Torus ($T^2$)**.
+    2.  Construction of **Vietoris-Rips complexes** at varying scales.
+    3.  Calculation of Persistent Homology to identify topological features.
+    4.  Verification of **Betti Numbers** ($B_0=1, B_1=2$) via Persistence Barcodes.
 
 ---
 
@@ -25,7 +25,7 @@ The following tools are currently being implemented to support mathematical expe
 | :--- | :--- | :--- |
 | **[Gudhi](https://gudhi.inria.fr/)** | **Algebraic Topology** | Simplicial complexes, Persistent Homology |
 | **NumPy** | **Linear Algebra** | Vector spaces, Matrix operations, Data structures |
-| **Matplotlib** | **Visualization** | Plotting barcodes and diagrams |
+| **Matplotlib** | **Visualization** | Plotting barcodes and persistence diagrams |
 
 ---
 
