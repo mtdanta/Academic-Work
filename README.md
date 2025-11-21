@@ -39,7 +39,7 @@ This section contains the source code of my Academic CV. It is designed as a reu
 
 This section contains code related to my self-study interests.
 
-### ➡️ [Python & TDA](Python_Tests/)
+### ➡️ [Python](Python_Tests/)
 * **Description:** A basic self-guided exploration into Python and differents libraries such as `guhdi`.
 * **Notebook:** [`TDA_Introduction.ipynb`](Python_Tests/TDA_introduction.ipynb)
 * **Content:** This project calculates and visualizes **persistence diagrams and barcodes from point cloud data** as well as **the persistent homology (Betti numbers) of a point cloud sampled from several topological objects.**
