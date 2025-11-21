@@ -29,7 +29,7 @@ This section contains my formal research and departmental collaborations ("Alumn
 This section contains the source code of my Academic CV. It is designed as a reusable template for other students.
 
 ### ➡️ [CV Source Code](CV/)
-* **Description:** A highly customizable LaTeX academic CV template using the Palatino font.
+* **Description:** A highly customizable LaTeX academic CV template based on mine using the Palatino font.
 * **Key Feature:** It includes a **boolean switch** (`\setbool{showphoto}{...}`) in the code to easily toggle between a European layout (with photo & side column) and an International layout (text-only).
 * **Format:** `.tex` source code and generated `.pdf` examples.
 
@@ -40,7 +40,6 @@ This section contains the source code of my Academic CV. It is designed as a reu
 This section contains code related to my self-study interests.
 
 ### ➡️ [Python & TDA](Python_Tests/)
-* **Description:** A basic self-guided exploration into Topological Data Analysis (TDA) using the `gudhi` library in Python.
+* **Description:** A basic self-guided exploration into Python and differents libraries such as `guhdi`.
 * **Notebook:** [`TDA_Introduction.ipynb`](Python_Tests/TDA_introduction.ipynb)
-* **Content:** This project calculates and visualizes **persistence diagrams and barcodes from point cloud data.**
-* **Content:** This project calculates and visualizes the persistent homology (Betti numbers) of a point cloud sampled from several topological objects.
+* **Content:** This project calculates and visualizes **persistence diagrams and barcodes from point cloud data** as well as **the persistent homology (Betti numbers) of a point cloud sampled from several topological objects.**
