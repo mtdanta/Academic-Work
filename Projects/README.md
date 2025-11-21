@@ -8,7 +8,7 @@ Welcome to the research directory of my academic portfolio. This folder contains
 | :--- | :--- | :--- | :--- |
 | **[Projective Geometry Classification](./Projective-Geometry-Classification/)** | Projective Geometry & Linear Algebra | Co-Author | ✅ Completed |
 | **Advanced Topics in Topology** | Algebraic Topology & Group Theory | Alumno Interno | 🚧 In Progress |
-| *(Future Project)* | *Abstract Algebra* | ... | 🔜 Planned |
+| *(Future Project)* | ... | ... | 🔜 Planned |
 
 ---
 
